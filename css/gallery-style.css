@@ -1,0 +1,46 @@
+
+:root {
+
+    /* Background Color */
+    --bg-white:#fff;
+
+    /* Text Colors */
+    --primary-text: #061738;
+    --secondary-color: #60cd12;
+    --light-color: #e2f6de;
+    --dark-color: #03262c;
+    --text-white: #fff;
+    --text-gray: #dee2e6;
+    --anchor-color: #007aff;
+
+    /* Font Family */
+    --primary-font: 'Barlow Condensed', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+
+.gallery-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+  }
+  
+  .gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #03262c;
+  }
+  
+  .section-subtitle {
+    font-size: 1.8rem;
+    color: var(--dark-color);
+    max-width: 600px;
+    margin: auto;
+  }
+  

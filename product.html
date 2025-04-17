@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Farmizo</title>
+    <link rel="icon" href="fevicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <!-- Lightbox2 CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap 5 cdn -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome 5 cdn -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- style css -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resposive-style.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
+    <!-- Navbar Section Start -->
+
+    <header id="full-nav">
+      <div class="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"
+              ><img src="./images/farmizo.png" alt="logo" />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-stream navbar-toggler"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Cotanct Us</a>
+                </li>
+              </ul>
+
+              <div class="header_right">
+                <div class="text-lg-end">
+                  <span>Call Us!</span>
+                  <span class="phone_no">+91-8905633897 </span>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Modern Product Section Start -->
+    <section class="product_filter_section py-5 mt-5 pt-5">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col">
+            <h2 class="section-title">Fresh from Our Farm</h2>
+            <p class="section-subtitle">
+              Explore our seasonal organic produce. Filter by category to find
+              your favourites!
+            </p>
+            <div class="filter-btns mt-4">
+              <button class="btn filter-btn active" data-filter="all">
+                All
+              </button>
+              <button class="btn filter-btn" data-filter="fruits">
+                Fruits
+              </button>
+              <button class="btn filter-btn" data-filter="vegetables">
+                Vegetables
+              </button>
+              <button class="btn filter-btn" data-filter="seasonal">
+                Seasonal
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="product-list">
+          <!-- Product 1 -->
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item fruits seasonal"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/brinjal.jpg"
+                  class="img-fluid"
+                  alt="Mango"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Brinjal</h4>
+                <p class="price">₹70 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item fruits">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/apple.jpg"
+                  class="img-fluid"
+                  alt="Apple"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Apple</h4>
+                <p class="price">₹160 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item fruits">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/pineapple.jpg"
+                  class="img-fluid"
+                  alt="Pineapple"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Pineapple</h4>
+                <p class="price">₹45 / piece</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item fruits seasonal"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/papaya.jpg"
+                  class="img-fluid"
+                  alt="Papaya"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Papaya</h4>
+                <p class="price">₹30 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item fruits">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/grapes.jpg"
+                  class="img-fluid"
+                  alt="Grapes"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Grapes</h4>
+                <p class="price">₹50 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 6 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item vegetables">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/strawberries.jpg"
+                  class="img-fluid"
+                  alt="strawberry"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Strawberry</h4>
+                <p class="price">₹35 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 7 -->
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item vegetables seasonal"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/cauliflower.jpg"
+                  class="img-fluid"
+                  alt="Cauliflower"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Cauliflower</h4>
+                <p class="price">₹50 / piece</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 8 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item vegetables">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/cabbage.jpg"
+                  class="img-fluid"
+                  alt="Cabbage"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Cabbage</h4>
+                <p class="price">₹30 / piece</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 9 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item vegetables">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/carrot.jpg"
+                  class="img-fluid"
+                  alt="Carrot"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Carrot</h4>
+                <p class="price">₹45 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 10 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item vegetables">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/beetroot.jpg"
+                  class="img-fluid"
+                  alt="Beetroot"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Beetroot</h4>
+                <p class="price">₹50 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Product 11 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item vegetables">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/potato.jpg"
+                  class="img-fluid"
+                  alt="Potato"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Potato</h4>
+                <p class="price">₹30 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 12 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item vegetables">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/ladyfinger.jpg"
+                  class="img-fluid"
+                  alt="Lady Finger"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Lady Finger</h4>
+                <p class="price">₹40 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 13 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item fruits">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/banana.jpg"
+                  class="img-fluid"
+                  alt="Banana"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Banana</h4>
+                <p class="price">₹40 / dozen</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 14 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item fruits">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/guava.jpg"
+                  class="img-fluid"
+                  alt="Guava"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Guava</h4>
+                <p class="price">₹55 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 15 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item fruits">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/pomegranate.jpg"
+                  class="img-fluid"
+                  alt="Pomegranate"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Pomegranate</h4>
+                <p class="price">₹120 / kg</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 16 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item vegetables">
+            <div class="product-card">
+              <div class="product-img">
+                <img
+                  src="images/products/radish.jpg"
+                  class="img-fluid"
+                  alt="Radish"
+                />
+              </div>
+              <div class="product-info">
+                <h4>Radish</h4>
+                <p class="price">₹25 / bunch</p>
+                <div class="product-buttons">
+                  <a href="#" class="btn main-btn">Buy Now</a>
+                  <a href="#" class="btn main-btn alt">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modern Product Section End -->
+
+    <!-- Link JS File -->
+    <script src="js/product.js"></script>
+
+    <!-- JQuery CDN   -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- lightbox pop up  -->
+
+    <script src="js/lightbox.js"></script>
+
+    <!-- bootstrap 5 cdn  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Lightbox2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+    <!-- custom js  -->
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+
+    <!-- Footer section Start -->
+    <section class="footer_wrapper mt-3 mt-md-0">
+      <div class="container px-5 px-lg-0">
+        <div class="row">
+          <!-- Company Info -->
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>Farmizo</h5>
+            <p class="mb-4 ps-0 company_details">
+              Bringing you 100% organic, farm-fresh produce straight from our
+              fields in Suratgarh. Taste the difference, trust the source.
+            </p>
+            <div class="contact-info">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-home me-3"></i> VPO-11 S.H.P.D., Teh.-
+                    Suratgarh, District- Sri Ganganagar</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+918905633897"
+                    ><i class="fa fa-phone me-3"></i> +91 89056 33897</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:shivduttkarwa@gmail.com"
+                    ><i class="fa fa-envelope me-3"></i>
+                    shivduttkarwa@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Customer Support -->
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>Customer Support</h5>
+            <ul class="link-widget p-0">
+              <li><a href="footer_about.html">About Farmizo</a></li>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="faq.html">FAQs</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>Explore</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">Our Products</a></li>
+              <li><a href="shopnow.html">Shop Now</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Track Order</a></li>
+            </ul>
+          </div>
+
+          <!-- Newsletter & Social -->
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>Join Our Newsletter</h5>
+            <div class="form-group mb-4">
+              <input
+                type="email"
+                class="form-control bg-transparent"
+                placeholder="Your Email Address"
+              />
+              <button type="submit" class="btn main-btn mt-2">Subscribe</button>
+            </div>
+            <h5>Follow Us</h5>
+            <ul class="social-network d-flex align-items-center p-0">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid copyright-section">
+        <p>
+          © 2025 <a href="#">Farmizo</a>. All rights reserved. Designed by
+          Shivdutt Karwa.
+        </p>
+      </div>
+    </section>
+    <!-- Footer Section Exit -->
+  </body>
+</html>

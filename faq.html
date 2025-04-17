@@ -1,0 +1,176 @@
+<!-- faqs.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQs</title>
+    <style>
+      :root {
+        --bg-white: #fff;
+        --primary-text: #061738;
+        --secondary-color: #60cd12;
+        --light-color: #e2f6de;
+        --dark-color: #03262c;
+        --text-white: #fff;
+        --text-gray: #dee2e6;
+        --anchor-color: #007aff;
+        --primary-font: "Barlow Condensed", sans-serif;
+        --secondary-font: "Roboto", sans-serif;
+      }
+
+      body {
+        font-family: var(--secondary-font);
+        margin: 0;
+        padding: 0;
+        background: var(--light-color);
+        color: var(--primary-text);
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: var(--dark-color);
+        color: var(--text-white);
+        padding: 2rem 1rem;
+        text-align: center;
+        font-family: var(--primary-font);
+      }
+
+      nav a {
+        color: var(--secondary-color);
+        margin: 0 0.75rem;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: var(--anchor-color);
+        text-decoration: underline;
+      }
+
+      main.content {
+        padding: 0;
+        max-width: 1000px;
+        margin: 2rem auto;
+        background: var(--bg-white);
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .hero-image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .faq-wrapper {
+        padding: 2rem;
+      }
+
+      .faq-entry {
+        background-color: var(--light-color);
+        padding: 1rem 1.5rem;
+        border-left: 5px solid var(--secondary-color);
+        margin-bottom: 1.5rem;
+        border-radius: 10px;
+        transition: all 0.4s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        position: relative;
+      }
+
+      .faq-entry:hover {
+        background-color: #d6f7cb;
+        transform: scale(1.02);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        background-color: var(--dark-color);
+        color: var(--text-white);
+        text-align: center;
+        padding: 1.5rem 1rem;
+        margin-top: 3rem;
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Frequently Asked Questions</h1>
+      <nav>
+        <a href="index.html">Home</a> <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main class="content">
+      <img src="../images/1.jpg" alt="Nature Banner" class="hero-image" />
+      <div class="faq-wrapper">
+        <div class="faq-entry">
+          <strong>Q: Are all your products really organic?</strong><br />A: Yes,
+          certified by local and national agricultural bodies.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Do you grow your own produce?</strong><br />A: Yes, most of
+          our products are grown at our farm in Suratgarh.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: How fresh is the produce?</strong><br />A: Everything is
+          harvested and shipped within 24 hours.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Do you deliver nationwide?</strong><br />A: Yes, we deliver
+          all across India.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: What are the delivery charges?</strong><br />A: Free
+          delivery on orders above ₹499, else ₹50 flat fee.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: How long does delivery take?</strong><br />A: 3-5 working
+          days for standard shipping.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Can I return items?</strong><br />A: Yes, within 7 days of
+          delivery.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Are your dairy products hormone-free?</strong><br />A:
+          Absolutely. Our cows are naturally raised.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Do you use plastic in packaging?</strong><br />A: We use
+          biodegradable or recyclable packaging.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Do you offer bulk discounts?</strong><br />A: Yes, for
+          bulk/wholesale orders, contact us.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Can I visit your farm?</strong><br />A: Yes! We love
+          visitors. Please schedule in advance.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Do you provide a subscription option?</strong><br />A: Yes,
+          you can subscribe for weekly or monthly deliveries.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Is there a mobile app?</strong><br />A: Coming soon! We’re
+          working on a smooth app experience.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: How do I contact support?</strong><br />A: Via email,
+          phone, or our contact form.
+        </div>
+        <div class="faq-entry">
+          <strong>Q: Do you sell seeds or plants?</strong><br />A: Yes, seasonal
+          seeds and organic saplings are available.
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Farmizo. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

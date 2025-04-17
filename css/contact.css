@@ -1,0 +1,129 @@
+.contact_us_section {
+    background-color: var(--light-color);
+    font-family: var(--secondary-font);
+    padding: 100px 0;
+  }
+  
+  .contact_us_section .section-title {
+    font-family: var(--primary-font);
+    font-weight: 800;
+    color: var(--primary-text);
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .contact_us_section .section-subtitle {
+    color: var(--primary-text);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.7;
+    opacity: 0.95;
+    max-width: 720px;
+    margin: 0 auto 2.5rem auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    border: 1px solid var(--text-gray);
+    padding: 16px 20px;
+    font-size: 1.5rem;
+    background-color: var(--bg-white);
+    transition: 0.3s ease;
+    color: var(--primary-text);
+    border-radius: 10px;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 10px rgba(96, 205, 18, 0.3);
+    outline: none;
+  }
+  
+  .contact-form .main-btn {
+    background: linear-gradient(to right, #3cb043, #60cd12);
+    color: var(--text-white);
+    font-weight: 700;
+    font-size: 1.7rem;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+  }
+  
+  .contact-form .main-btn:hover {
+    background-color: var(--dark-color);
+    transform: scale(1.02);
+  }
+  
+  /* Info Card Styles */
+  .contact-info-box {
+    background-color: var(--bg-white);
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    transition: all 0.4s ease;
+    position: relative;
+  }
+  
+  .contact-info-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-info-box::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .contact-info-box:hover::after {
+    width: 80%;
+  }
+  
+  
+  .contact-info-box h5 {
+    font-weight: 700;
+    color: var(--primary-text);
+    font-size: 1.7rem;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-box p {
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+    color: var(--primary-text);
+    opacity: 0.95;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info-box i {
+    color: var(--secondary-color);
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Enhancements */
+  @media (max-width: 768px) {
+    .contact_us_section .section-title {
+      font-size: 2.4rem;
+    }
+  
+    .contact_us_section .section-subtitle {
+      font-size: 1.05rem;
+    }
+  
+    .contact-info-box {
+      margin-top: 40px;
+    }
+  }
+  
