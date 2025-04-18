@@ -106,6 +106,7 @@
               
 
         .contact_us_section {
+          margin-top: 30px;
             padding: 5rem 2rem;
             background-color: var(--light-color);
             font-family: var(--secondary-font);
@@ -230,12 +231,22 @@
           }
           
           @media (max-width: 767px) {
+
+            h1{
+              font-size: 6rem;
+              font-weight: 500;
+            }
+            h3{
+              font-size: 3rem;
+              font-weight: 400;
+            }
             .contact_us_section {
               padding: 3rem 1rem;
             }
           
             .section-title {
-              font-size: 1.9rem;
+              font-size: 2.5rem;
+              font-weight: 400  ;
             }
           
             .section-subtitle {
