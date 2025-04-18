@@ -276,3 +276,67 @@
               font-size: 1.2rem;
             }
           }
+
+          /* ================= Small & Extra Small Devices (max-width: 430px) ================= */
+
+@media (max-width: 430px) {
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    
+  }
+
+  h3 {
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .contact_us_section {
+    padding: 2rem 1rem;
+  
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .section-subtitle {
+    font-size: 1.3rem;
+    line-height: 1.6;
+  }
+
+  .form-control,
+  textarea {
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .main-btn {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.2rem;
+  }
+
+  .info-block i {
+    font-size: 1.3rem;
+  }
+
+  .info-block h5 {
+    font-size: 1.3rem;
+  }
+
+  .info-block p {
+    font-size: 1.1rem;
+  }
+
+
+  .banner_section .carousel-caption p{
+    font-size: 1.2rem;
+  }
+  /* Optional: make buttons and inputs take full width for touch devices */
+  .form-control,
+  textarea,
+  .main-btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
