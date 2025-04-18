@@ -95,3 +95,154 @@
   .product_filter_section .py-5
   {padding: 180px;}
   
+
+  /* ================== Default Styling (Desktop) already exists ================== */
+
+/* ========== Tablet Screens: max-width 991px ========== */
+@media (max-width: 991px) {
+  .product_filter_section .product-img {
+    height: 200px;
+  }
+
+  .product_filter_section .product-info h4 {
+    font-size: 1.6rem;
+  }
+
+  .product_filter_section .product-info .price {
+    font-size: 1.3rem;
+  }
+
+  .product_filter_section .product-buttons .main-btn {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.2rem;
+  }
+
+  .filter-btns .filter-btn {
+    font-size: 1.3rem;
+    padding: 0.4rem 1.2rem;
+  }
+
+  .product_filter_section .py-5 {
+    padding: 120px;
+  }
+}
+
+/* ========== Mobile Screens: max-width 767px ========== */
+@media (max-width: 767px) {
+  .product_filter_section .product-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .product_filter_section .product-img {
+    height: 180px;
+  }
+
+  .product_filter_section .product-info h4 {
+    font-size: 1.5rem;
+  }
+
+  .product_filter_section .product-info .price {
+    font-size: 1.2rem;
+  }
+
+  .product_filter_section .product-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .product_filter_section .product-buttons .main-btn {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.6rem;
+  }
+
+  .filter-btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .filter-btns .filter-btn {
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+    border-radius: 25px;
+  }
+
+  .product_filter_section .py-5 {
+    padding: 90px;
+  }
+}
+
+/* ========== Extra Small Devices: max-width 480px ========== */
+@media (max-width: 480px) {
+  .product_filter_section .product-img {
+    height: 160px;
+    
+  }
+
+  .product_filter_section .product-info h4 {
+    font-size: 1.3rem;
+  }
+
+  .product_filter_section .product-info .price {
+    font-size: 1.1rem;
+  }
+
+  .product_filter_section .product-buttons .main-btn {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .filter-btns .filter-btn {
+    font-size: 1rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .product_filter_section .py-5 {
+    padding: 60px;
+  }
+}
+
+
+/* ======== Mobile Fix: Full Width Product Cards ======== */
+@media (max-width: 767px) {
+  .product_filter_section .col-lg-3,
+  .product_filter_section .col-md-4,
+  .product_filter_section .col-sm-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .product_filter_section .product-card {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .product_filter_section .product-img {
+    height: auto;
+  }
+
+  .product_filter_section .product-buttons {
+    flex-direction: column;
+  }
+
+  .product_filter_section .product-buttons .main-btn {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .filter-btns {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+

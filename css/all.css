@@ -689,8 +689,8 @@
            
            }
            
+           /* responsive css */
            
-           <!--Responsive CSS-->
            
            /* Media Query 1170px */
            @media (max-width:1170px) {
@@ -787,7 +787,7 @@
                /* General CSS */
                body,
                html {
-                   font-size: 7px;
+                   font-size: 15px;
                }
            }
            

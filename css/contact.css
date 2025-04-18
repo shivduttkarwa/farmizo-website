@@ -6,10 +6,11 @@
   
   .contact_us_section .section-title {
     font-family: var(--primary-font);
-    font-weight: 800;
+    font-weight: 600;
     color: var(--primary-text);
-    font-size: 3.2rem;
+    font-size: 3.7rem;
     margin-bottom: 0.8rem;
+    margin-top: 30px;
   }
   
   .contact_us_section .section-subtitle {
@@ -112,18 +113,5 @@
     font-size: 1.2rem;
   }
   
-  /* Responsive Enhancements */
-  @media (max-width: 768px) {
-    .contact_us_section .section-title {
-      font-size: 2.4rem;
-    }
   
-    .contact_us_section .section-subtitle {
-      font-size: 1.05rem;
-    }
-  
-    .contact-info-box {
-      margin-top: 40px;
-    }
-  }
   

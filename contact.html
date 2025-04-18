@@ -35,6 +35,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
 
  <!-- Navbar Section Start -->
+ 
 
  <header id="full-nav">
   <div class="header">
@@ -72,7 +73,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Cotanct Us</a>
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
 
@@ -88,31 +89,30 @@
   </div>
 </header>
 
-    <!-- Contact Us Section Start -->
-<section class="contact_us_section py-5" style="margin: 120px;">
+   <!-- Contact Us Section Start -->
+<section class="contact_us_section">
   <div class="container">
-    <div class="row justify-content-center mb-5 text-center">
-      <div class="col-lg-8">
-        <h2 class="section-title mb-3">Get In Touch</h2>
-        <p class="section-subtitle">
-          We'd love to hear from you! Whether you have a question about our products, need assistance, or just want to share feedback—our team is here to help.
-        </p>
-      </div>
+    <div class="section-header text-center">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">
+        Have a question or feedback? We're just a message away. Reach out to us!
+      </p>
     </div>
-    <div class="row gy-4">
+
+    <div class="row align-items-start gy-4">
       <!-- Contact Form -->
       <div class="col-lg-6">
         <form class="contact-form">
-          <div class="mb-3">
+          <div class="form-group">
             <input type="text" class="form-control" placeholder="Your Name" required />
           </div>
-          <div class="mb-3">
+          <div class="form-group">
             <input type="email" class="form-control" placeholder="Your Email" required />
           </div>
-          <div class="mb-3">
+          <div class="form-group">
             <input type="text" class="form-control" placeholder="Subject" />
           </div>
-          <div class="mb-3">
+          <div class="form-group">
             <textarea rows="5" class="form-control" placeholder="Your Message" required></textarea>
           </div>
           <button type="submit" class="btn main-btn w-100">Send Message</button>
@@ -121,18 +121,35 @@
 
       <!-- Contact Info -->
       <div class="col-lg-6">
-        <div class="contact-info-box">
-          <h5>Farm Location</h5>
-          <p><i class="fa fa-map-marker-alt me-2"></i>VPO-11 S.H.P.D., Suratgarh, Rajasthan</p>
-
-          <h5>Email Us</h5>
-          <p><i class="fa fa-envelope me-2"></i>shivduttkarwa@gmail.com</p>
-
-          <h5>Call Us</h5>
-          <p><i class="fa fa-phone me-2"></i>+91 89056 33897</p>
-
-          <h5>Working Hours</h5>
-          <p><i class="fa fa-clock me-2"></i>Monday - Saturday: 9:00 AM to 6:00 PM</p>
+        <div class="contact-information">
+          <div class="info-block">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h5>Farm Location</h5>
+              <p>VPO-11 S.H.P.D., Suratgarh, Rajasthan</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h5>Email Us</h5>
+              <p>shivduttkarwa@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h5>Call Us</h5>
+              <p>+91 89056 33897</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h5>Working Hours</h5>
+              <p>Mon - Sat: 9:00 AM – 6:00 PM</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -141,7 +158,6 @@
 <!-- Contact Us Section End -->
 
 
-    
     <!-- Footer section Start -->
     <section class="footer_wrapper mt-3 mt-md-0">
       <div class="container px-5 px-lg-0">
@@ -156,21 +172,27 @@
             <div class="contact-info">
               <ul class="list-unstyled">
                 <li>
-                  <a href="#"
-                    ><i class="fa fa-home me-3"></i> VPO-11 S.H.P.D., Teh.-
-                    Suratgarh, District- Sri Ganganagar</a
-                  >
-                </li>
-                <li>
-                  <a href="tel:+918905633897"
-                    ><i class="fa fa-phone me-3"></i> +91 89056 33897</a
-                  >
-                </li>
-                <li>
-                  <a href="mailto:shivduttkarwa@gmail.com"
-                    ><i class="fa fa-envelope me-3"></i>
-                    shivduttkarwa@gmail.com</a
-                  >
+                
+                      <a
+                        href="https://www.google.com/maps/place/Suratgarh,+Rajasthan"
+                        target="_blank"
+                      >
+                        <i class="fa fa-home me-3"></i> VPO-11 S.H.P.D., Teh.-
+                        Suratgarh, District- Sri Ganganagar
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tel:+918905633897">
+                        <i class="fa fa-phone me-3"></i> +91 89056 33897
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:shivduttkarwa@gmail.com">
+                        <i class="fa fa-envelope me-3"></i>
+                        shivduttkarwa@gmail.com
+                      </a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -180,10 +202,10 @@
           <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
             <h5>Customer Support</h5>
             <ul class="link-widget p-0">
-              <li><a href="footer_about.html">About Farmizo</a></li>
-              <li><a href="#">Shipping & Returns</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
+              <li><a href="about.html">About Farmizo</a></li>
+              <li><a href="shipping.html">Shipping & Returns</a></li>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
               <li><a href="faq.html">FAQs</a></li>
             </ul>
           </div>
@@ -192,11 +214,11 @@
           <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
             <h5>Explore</h5>
             <ul class="link-widget p-0">
-              <li><a href="#">Our Products</a></li>
-              <li><a href="shopnow.html">Shop Now</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Track Order</a></li>
+              <li><a href="product.html">Our Products</a></li>
+              <li><a href="product.html">Shop Now</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="track.html">Track Order</a></li>
             </ul>
           </div>
 

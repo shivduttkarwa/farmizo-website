@@ -1,98 +1,267 @@
- /* Media Query 1170px */
- @media (max-width:1170px) {
+/* responsive css */
            
-  /* General CSS */
-  .section-subtitle {
-      max-width: 60%;
-  }
+           
+           /* Media Query 1170px */
+           @media (max-width:1170px) {
+           
+            /* General CSS */
+            .section-subtitle {
+                max-width: 60%;
+            }
+        
+            /* 01 Navbar CSS */
+            .header .navbar {
+                background-size: cover;
+                padding: 2rem;
+            }
+        
+            .header .navbar-nav {
+                margin-top: 2rem;
+            }
+        
+            .header .navbar-nav .nav-link {
+                padding: 0.2rem 0.5rem;
+                margin-bottom: 1rem;
+            }
+        
+            .header .header_right span {
+                padding: 0.2rem 0.5rem;
+            }
+        
+            /* 02 Banner Section */
+            .banner_section .carousel-item {
+                height: 90vh;
+            }
+        }
+        
+        /* Media Query 991px */
+        @media (max-width:991px) {
+        
+            /* 01 Navbar CSS */
+            .header .navbar {
+                background-size: cover;
+                padding: 1rem 2rem;
+            }
+        
+            .header .navbar-nav {
+                margin-top: 2rem;
+            }
+        
+            .header .navbar-nav .nav-link {
+                padding: 0.2rem 0.5rem;
+                margin-bottom: 1rem;
+            }
+        
+            .header .header_right span {
+                padding: 0.2rem 0.5rem;
+            }
+        
+        
+            /* General CSS */
+            .about .banner_section,
+            .product .banner_section,
+            .Gallery .banner_section,
+            .contact .banner_section {
+                padding-top: 12.5rem;
+                padding-bottom: 3rem;
+            }
+        }
+        
+        /* Media Query 767px */
+        @media (max-width:767px) {
+        
+            /* General CSS */
+            body,
+            html {
+                font-size: 10px;
+            }
+        
+            .section-subtitle {
+                max-width: 80%;
+            }
+        
+            /* 02 Banner Section */
+            .banner_section {
+                min-height: 70vh;
+            }
+        
+            .banner_section .carousel-item {
+                height: 70vh;
+            }
+        }
+        
+        /* Media Query 590px */
+        @media (max-width:590px) {
+        
+            /* General CSS */
+            body,
+            html {
+                font-size: 10px;
+            }
+        }
+        
 
-  /* 01 Navbar CSS */
-  .header .navbar {
-      background-size: cover;
-      padding: 2rem;
-  }
 
-  .header .navbar-nav {
-      margin-top: 2rem;
-  }
+        /* contact us added section responsiveness */
+              
 
-  .header .navbar-nav .nav-link {
-      padding: 0.2rem 0.5rem;
-      margin-bottom: 1rem;
-  }
-
-  .header .header_right span {
-      padding: 0.2rem 0.5rem;
-  }
-
-  /* 02 Banner Section */
-  .banner_section .carousel-item {
-      height: 90vh;
-  }
-}
-
-/* Media Query 991px */
-@media (max-width:991px) {
-
-  /* 01 Navbar CSS */
-  .header .navbar {
-      background-size: cover;
-      padding: 1rem 2rem;
-  }
-
-  .header .navbar-nav {
-      margin-top: 2rem;
-  }
-
-  .header .navbar-nav .nav-link {
-      padding: 0.2rem 0.5rem;
-      margin-bottom: 1rem;
-  }
-
-  .header .header_right span {
-      padding: 0.2rem 0.5rem;
-  }
-
-
-  /* General CSS */
-  .about .banner_section,
-  .product .banner_section,
-  .Gallery .banner_section,
-  .contact .banner_section {
-      padding-top: 12.5rem;
-      padding-bottom: 3rem;
-  }
-}
-
-/* Media Query 767px */
-@media (max-width:767px) {
-
-  /* General CSS */
-  body,
-  html {
-      font-size: 8px;
-  }
-
-  .section-subtitle {
-      max-width: 80%;
-  }
-
-  /* 02 Banner Section */
-  .banner_section {
-      min-height: 70vh;
-  }
-
-  .banner_section .carousel-item {
-      height: 70vh;
-  }
-}
-
-/* Media Query 590px */
-@media (max-width:590px) {
-
-  /* General CSS */
-  body,
-  html {
-      font-size: 7px;
-  }
-}
+        .contact_us_section {
+            padding: 5rem 2rem;
+            background-color: var(--light-color);
+            font-family: var(--secondary-font);
+          }
+          
+          .section-header {
+            margin-bottom: 3rem;
+            text-align: center;
+          }
+          
+          .section-title {
+            font-size: 3.7rem;
+            font-family: var(--primary-font);
+            font-weight: 600;
+            color: var(--primary-text);
+            margin-bottom: 0.75rem;
+          }
+          
+          .section-subtitle {
+            font-size: 1.8rem;
+  font-weight: 400;
+            color: var(--primary-text);
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.7;
+          }
+          
+          /* Contact Form */
+          .contact-form .form-group {
+            margin-bottom: 1.5rem;
+          }
+          
+          .contact-form .form-control {
+            width: 100%;
+            padding: 0.9rem 1.1rem;
+            font-size: 1.3rem;
+            font-family: var(--secondary-font);
+            border-radius: 0.6rem;
+            border: 1px solid var(--text-gray);
+            transition: border 0.3s ease, box-shadow 0.3s ease;
+          }
+          
+          .contact-form .form-control:focus {
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 5px rgba(96, 205, 18, 0.5);
+            outline: none;
+          }
+          
+          .main-btn {
+            background-color: var(--secondary-color);
+            color: var(--text-white);
+            font-family: var(--primary-font);
+            font-weight: 600;
+            border: none;
+            padding: 0.9rem 1.5rem;
+            border-radius: 0.5rem;
+            font-size: 1.2rem;
+            letter-spacing: 0.5px;
+            transition: background 0.3s ease, transform 0.3s ease;
+          }
+          
+          .main-btn:hover {
+            background-color: #52b50f;
+            transform: translateY(-2px);
+          }
+          
+          /* Contact Info */
+          .contact-information {
+            background-color: var(--bg-white);
+            padding: 2.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          }
+          
+          .contact-information:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+          }
+          
+          .info-block {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.7rem;
+          }
+          
+          .info-block i {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            margin-top: 0.2rem;
+          }
+          
+          .info-block h5 {
+            font-size: 1.5rem;
+            font-family: var(--primary-font);
+            margin-bottom: 0.25rem;
+            color: var(--primary-text);
+          }
+          
+          .info-block p {
+            font-size: 1.2rem;
+            margin: 0;
+            color: var(--dark-color);
+            font-family: var(--secondary-font);
+          }
+          
+          /* Responsive Styling */
+          @media (max-width: 991px) {
+            .section-title {
+              font-size: 2.2rem;
+            }
+          
+            .section-subtitle {
+              font-size: 1.3rem;
+            }
+          
+            .contact-information {
+              margin-top: 2rem;
+              padding: 2rem;
+            }
+          }
+          
+          @media (max-width: 767px) {
+            .contact_us_section {
+              padding: 3rem 1rem;
+            }
+          
+            .section-title {
+              font-size: 1.9rem;
+            }
+          
+            .section-subtitle {
+              font-size: 1.4rem;
+            }
+          
+            .form-control,
+            textarea {
+              font-size: 1.4rem;
+              padding: 0.8rem 1rem;
+            }
+          
+            .main-btn {
+              font-size: 1.4rem;
+              padding: 0.8rem;
+            }
+          
+            .info-block i {
+              font-size: 1.4rem;
+            }
+          
+            .info-block h5 {
+              font-size: 1.4rem;
+            }
+          
+            .info-block p {
+              font-size: 1.2rem;
+            }
+          }
