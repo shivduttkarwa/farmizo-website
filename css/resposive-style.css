@@ -279,67 +279,73 @@
             }
           }
 
-          /* ================= Small & Extra Small Devices (max-width: 430px) ================= */
-
-@media (max-width: 430px) {
-  h1 {
-    font-size: 3.5rem;
-    font-weight: 500;
-    
-  }
-
-  h3 {
-    font-size: 1.9rem;
-    font-weight: 400;
-  }
-
-  .contact_us_section {
-    margin-top: -101px;
-    padding: 12rem 1rem;
-  }
-
-  .section-title {
-    font-size: 2rem;
-    font-weight: 500;
-  }
-
-  .section-subtitle {
-    font-size: 1.3rem;
-    line-height: 1.6;
-  }
-
-  .form-control,
-  textarea {
-    font-size: 1.2rem;
-    padding: 0.6rem 1rem;
-  }
-
-  .main-btn {
-    font-size: 1.3rem;
-    padding: 0.7rem 1.2rem;
-  }
-
-  .info-block i {
-    font-size: 1.3rem;
-  }
-
-  .info-block h5 {
-    font-size: 1.3rem;
-  }
-
-  .info-block p {
-    font-size: 1.1rem;
-  }
-
-
-  .banner_section .carousel-caption p{
-    font-size: 1.2rem;
-  }
-  /* Optional: make buttons and inputs take full width for touch devices */
-  .form-control,
-  textarea,
-  .main-btn {
-    width: 100%;
-    box-sizing: border-box;
-  }
-}
+          @media (max-width: 430px) {
+            /* Typography scaling */
+            h1 {
+              font-size: 3.5rem;
+              font-weight: 500;
+            }
+          
+            h3 {
+              font-size: 1.9rem;
+              font-weight: 400;
+            }
+          
+            .section-title {
+              font-size: 2rem;
+              font-weight: 500;
+            }
+          
+            .section-subtitle {
+              font-size: 1.3rem;
+              line-height: 1.6;
+            }
+          
+            .banner_section .carousel-caption p {
+              font-size: 1.2rem;
+            }
+          
+            /* Contact form adjustments (optional, leave if not needed here) */
+            .form-control,
+            textarea {
+              font-size: 1.2rem;
+              padding: 0.6rem 1rem;
+            }
+          
+            /* Buttons: Only form buttons go full width, rest stay inline */
+            .form-control,
+            textarea,
+            .main-btn.form-btn {
+              width: 100%;
+              box-sizing: border-box;
+            }
+          
+            /* Cart button floating on product page */
+            .position-fixed.main-btn {
+              width: auto;
+              padding: 0.7rem 1.2rem;
+              font-size: 1.3rem;
+              min-width: 56px;
+            }
+          
+            /* Banner CTA button (Explore Products) */
+            .main-btn.banner-btn {
+              width: auto;
+              padding: 0.8rem 2rem;
+              font-size: 1.4rem;
+            }
+          
+            /* Info block tweaks (optional UI elements) */
+            .info-block i {
+              font-size: 1.3rem;
+            }
+          
+            .info-block h5 {
+              font-size: 1.3rem;
+            }
+          
+            .info-block p {
+              font-size: 1.1rem;
+            }
+          }
+          
