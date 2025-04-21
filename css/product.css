@@ -1,3 +1,7 @@
+/* element.style {
+  margin: -77px;
+} */
+
 .product_filter_section .product-card {
     border: 1px solid var(--light-color);
     border-radius: 10px;
@@ -96,7 +100,7 @@
   {padding: 180px;}
   
 
-  /* ================== Default Styling (Desktop) already exists ================== */
+ 
 
 /* ========== Tablet Screens: max-width 991px ========== */
 @media (max-width: 991px) {

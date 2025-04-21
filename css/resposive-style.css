@@ -106,8 +106,8 @@
               
 
         .contact_us_section {
-          margin-top: 30px;
-            padding: 5rem 2rem;
+          margin-top: -82px;
+    padding: 13rem 2rem;
             background-color: var(--light-color);
             font-family: var(--secondary-font);
           }
@@ -118,6 +118,7 @@
           }
           
           .section-title {
+            margin-top: -25px;
             font-size: 3.7rem;
             font-family: var(--primary-font);
             font-weight: 600;
@@ -241,12 +242,13 @@
               font-weight: 400;
             }
             .contact_us_section {
-              padding: 3rem 1rem;
+              margin-top: -101px;
+              padding: 12rem 1rem;
             }
           
             .section-title {
               font-size: 2.5rem;
-              font-weight: 400  ;
+              font-weight: 500  ;
             }
           
             .section-subtitle {
@@ -292,8 +294,9 @@
   }
 
   .contact_us_section {
-    padding: 2rem 1rem;
-  
+    margin-top: -101px;
+    padding: 12rem 1rem;
+  }
 
   .section-title {
     font-size: 2rem;
@@ -339,4 +342,5 @@
     width: 100%;
     box-sizing: border-box;
   }
+}
 }
